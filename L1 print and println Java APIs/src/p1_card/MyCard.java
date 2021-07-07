@@ -1,4 +1,4 @@
-package card;
+package p1_card;
 
 public class MyCard {
 
