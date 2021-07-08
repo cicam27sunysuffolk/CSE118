@@ -3,10 +3,11 @@ package variables_2;
 public class DemoVariables2 {
 
 	public static void main(String[] args) {
-		int yearBorn = 2003;
+		double yearBorn = 2003.5;
+		yearBorn = 2004.3;
 		int thisYear = 2021;
 		
-		System.out.println("You age is: " + (thisYear - yearBorn));
+		System.out.println("Your age is: " + (thisYear - yearBorn));
 		
 		
 		double radius = 3.9;
