@@ -9,14 +9,14 @@ public class Course { // (1) class name
 
 	// methods
 	// constructors
-	public Course(String aCourseNumber, String aCourseTitle, int numberOfCredits) {
-		courseNumber = aCourseNumber;
-		courseTitle = aCourseTitle;
-		credits = numberOfCredits;
+	public Course(String courseNumber, String courseTitle, int credits) {
+		this.courseNumber = courseNumber;
+		this.courseTitle = courseTitle;
+		this.credits = credits;
 	}
 
-	public Course(String aCourseNumber) {
-		courseNumber = aCourseNumber;
+	public Course(String courseNumber) {
+		this.courseNumber = courseNumber;
 		courseTitle = "";
 		credits = 0;
 	}
